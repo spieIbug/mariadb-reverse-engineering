@@ -30,10 +30,12 @@
 |-------------------|---------------|--------------------|---------------|-------------------------|-----------------------|------------------------|
 | custom_schema     | custom_schema | ManyAToManyBEntity | entity_a_id   | custom_schema           | EntityA               | id                     |
 | custom_schema     | custom_schema | ManyAToManyBEntity | entity_b_id   | custom_schema           | EntityB               | id                     |
-```
+
+
+![UML](https://github.com/meyacine/mariadb-reverse-engineering/raw/master/jdl.png "UML Diagram")
+
 
 ```
-
 	entity Schema {
 		name String
 	}
